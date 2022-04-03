@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// ここでindex.htmlと紐付けを行なっている（App.jsを表示している)
 ReactDOM.render(
   <React.StrictMode>
     <App />
