@@ -1,4 +1,10 @@
+import { useEffect } from 'react';
+import axios from 'axios';
+
 export const Skills = () => {
+
+  useEffect(() => { axios.get('https://api.github.com/users/OyamaYuichi/repos').then((response) => console.log(response)) }, []);
+
   return (
     <div id="skills">
       <div className="container">
